@@ -1,0 +1,87 @@
+* {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    height: 70%;
+    width: 70%;
+    margin: auto;
+    background-color: lightgrey;
+    padding: 15px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+
+/* --- page title --- */
+
+.container h2 {
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+
+/* --- product box styling --- */
+
+#products {
+    height: 360px;
+    display: flex;
+    flex-wrap: wrap;
+    border: solid 2px white;
+    border-radius: 25px;
+}
+
+.product-item {
+    list-style: none;
+    height: 160px;
+    width: 160px;
+    font-size: 1.3rem;
+    margin: 9px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.171);
+}
+
+
+/* ---  price tag ---  */
+
+.product-item span:nth-child(2) {
+    color: red;
+    font-size: 1rem;
+}
+
+
+/* ---- page number ---- */
+
+#page-number {
+    text-align: center;
+    margin-bottom: 13px;
+}
+
+
+/*------  Tabs ------ */
+
+.tabs-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tabs-container div {
+    text-align: center;
+    background-color: white;
+    border-radius: 5px;
+    width: 20%;
+    cursor: pointer;
+}
+
+.tabs-container div:hover {
+    background-color: black;
+    color: white;
+}
