@@ -26,6 +26,30 @@
 }
 
 
+/* ---- user input ---- */
+
+#user-input-container {
+    margin: 10px auto;
+}
+
+#user-input {
+    height: 35px;
+    width: 200px;
+}
+
+#user-input-btn {
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#user-input-btn:hover {
+    background-color: black;
+    color: white;
+}
+
+
 /* --- product box styling --- */
 
 #products {
