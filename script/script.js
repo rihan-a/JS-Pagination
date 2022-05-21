@@ -3,13 +3,19 @@ let firstTab = document.querySelector("#tab-first");
 let previousTab = document.querySelector("#tab-previous");
 let nextTab = document.querySelector("#tab-next");
 let lastTab = document.querySelector("#tab-last");
+let tabsContainer = document.querySelector(".tabs-container");
 let pageNumberPrint = document.querySelector("#page-number");
 let userInput = document.querySelector("#user-input");
 let userInputBtn = document.querySelector("#user-input-btn");
 
 userInputBtn.onclick = addUserInput;
 
+productsUL.style.display = "none";
+tabsContainer.style.display = "none";
+
 function addUserInput() {
+    productsUL.style.display = "flex";
+    tabsContainer.style.display = "flex";
     var productList = [];
     let pageNumber = 1;
     let productsPerPage = 10;

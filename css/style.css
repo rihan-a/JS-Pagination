@@ -22,7 +22,14 @@
 .container h2 {
     margin: 15px 0;
     text-align: center;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
+}
+
+.container h3 {
+    margin: 10px 0;
+    text-align: center;
+    font-size: 0.8rem;
+    color: darkblue;
 }
 
 
@@ -124,9 +131,16 @@
     }
     .product-item {
         list-style: none;
-        height: 75px;
+        height: 65px;
         width: 105px;
         font-size: 1rem;
         margin: 6px;
+    }
+    #user-input-btn:hover {
+        background-color: unset;
+        color: white;
+    }
+    #page-number {
+        margin: 7px 0;
     }
 }
